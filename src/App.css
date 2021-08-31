@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin:20px;
+  margin-left: 33px;
+  width: 300px;
+  background-color:transparent;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+li {
+  background-color:rgb(180, 160, 221);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color:rgb(197, 145, 197);
+  border-radius: 20px;
+}
+.avatar span{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(98, 98, 150);
+}
+h3{
+  font-family: cursive;
+  color: rgb(104, 16, 131);
+}
+h5{
+  font-family:'Times New Roman', Times, serif;
+  color:rgb(104, 85, 134);
+}
+
+
+h1{
+  margin:20px;
+  font-style: italic;
+  color:rgb(138, 86, 139);
+}
